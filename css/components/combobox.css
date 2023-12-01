@@ -1,0 +1,49 @@
+select{
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+.combobox-head{
+    height: 30px;
+    padding-top: 10px;
+}
+
+.combobox{
+    border-width: 1px;
+    border-color: #bbbbbbbb;
+    border-radius: 4px;
+    height: 20px;
+    
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    padding-bottom: 0px;
+    height: 20px;
+    font-weight: bold;
+    display: flex;
+}
+.combobox1{
+    padding-left: 10px;
+    /* margin-left: 10px; */
+    width: auto;
+    height: 44px;
+    outline: none;
+    border: solid 1px #bbb;
+    border-radius: 5px;
+    font-family: GoogleSans-Regular;
+    src: url(../../asset/font/GoogleSans-Regular.otf)
+}
+
+.combobox2{
+    padding-left: 10px;
+    /* margin-left: 15px; */
+    width: auto;
+    height: 44px;
+    outline: none;
+    border: solid 1px #bbb;
+    border-radius: 5px;
+    font-family: GoogleSans-Regular;
+    src: url(../../asset/font/GoogleSans-Regular.otf)
+}

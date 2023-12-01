@@ -1,0 +1,141 @@
+
+.m-btn{
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 4px;
+    background-color: #019160;
+    border: 0;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    min-width: 100px;
+}
+.m-btn:hover{
+    background-color: #2FBE8E;
+}
+
+.m-btn:active{
+    background-color: #01B075;
+}
+
+.m-btn-icon{
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    background-size: 16px 16px;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+.m-btn-icon-add{
+    background-image: url(../../assets/icon/add.png);
+}
+
+.m-btn-next{
+    background-image: url(../../assets/icon/btn-next-page.svg)
+}
+
+.m-btn-first{
+    background-image: url(../../assets/icon/btn-firstpage.svg)
+}
+
+.m-btn-last{
+    background-image: url(../../assets/icon/btn-lastpage.svg)
+}
+
+.m-btn-prev{
+    background-image: url(../../assets/icon/btn-prev-page.svg)
+}
+
+button{
+    background-color: transparent;
+}
+
+.ms-btn{
+    height: 40px;
+    border-radius: 4px;
+    background-color: #019160;
+    color:  #fff;
+    padding: 0 24px 0 24px;
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+    text-align: center;
+    border: none;
+    width: 156px;
+}
+
+.ms-btn:hover{
+    background-color: #2fbe8e;
+}
+
+.ms-btn:active{
+    background-color: #0c902b;
+}
+
+.ms-btn-icon{
+    background-image: url(../../asset/icon/add.png);
+    /* height: 40px; */
+
+    background-repeat:  no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
+    padding-left: 40px;
+
+}
+
+.ms-btn-icon1{
+    background-image: url(../../assets/icon/save-32.png);
+    /* height: 40px; */
+
+    background-repeat:  no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
+    /* padding-right: 100px; */
+
+}
+
+.ms-btn1{
+    height: 40px;
+    border-radius: 4px;
+    background-color: #019160;
+    color:  #fff;
+    padding: 0 24px 0 30px;
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+    text-align: center;
+    border: none;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.ms-btn2{
+    height: 40px;
+    border-radius: 4px;
+    color:black;
+    padding: 0 24px 0 24px;
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+    text-align: center;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.ms-btn1:active{
+    background-color: #0c902b;
+}
+
+.ms-btn2:active{
+    background-color:beige;
+}
+
+.menu-item:hover{
+    background-color: #2fbe8e;
+}
+
+.ms-btn:active{
+    background-color: #0c902b;
+}
+
+.m-btn-close{
+    background-color: none;
+    width: 32px;
+    height: 32px;
+}

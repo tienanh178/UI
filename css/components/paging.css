@@ -1,0 +1,68 @@
+.m-paging{
+    position: relative;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: space-between; */
+}
+
+.m-page-number-group{
+    display: flex;
+}
+
+.m-paging .m-paging-center{
+    display: flex;
+}
+
+.m-paging button { 
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+}
+
+.m-paging button.m-btn-page-select{
+    border-radius: 50%;
+    border: 1px solid #BBBBBB;
+    background-position: center;
+}
+
+.m-paging .m-page-number-group button.m-page-number{
+    border-radius: 50%;
+    border: 1px solid #BBBBBB;
+}
+
+.m-paging .m-page-number-group button.m-page-number:hover{
+    border: 1px solid #BBBBBB;
+    background-color: #fff;
+    color: #000;
+}
+
+.m-paging .m-page-number-group button.m-page-number-selected{
+    background-color: #019060;
+    color: #fff;
+}
+
+.m-paging .m-paging-left{
+    position: absolute; 
+    left: 0px;
+}
+
+.m-paging .m-paging-right{
+    position: absolute;
+    right: 0px;
+}
+
+.m-page-grid{
+    position: relative;
+    overflow-y: auto;
+}
+
+.m-page-grid .m-paging{
+    position: relative;
+    bottom: 0;
+}

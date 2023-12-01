@@ -1,0 +1,33 @@
+.navbar{
+    width: 226px;
+    height: 100%;
+    flex-shrink: 0;
+    border-right: 1px solid #bbb;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    display: flex;
+    height: 44px;
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.menu-item .menu-icon{
+    margin-left: 16px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.menu-item:hover{
+    background-color: #e5e5e5;
+}
+
+.menu-item.menu-item-focus{
+    background-color: #019160;
+    color:  #ffffff;
+}

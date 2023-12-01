@@ -1,0 +1,78 @@
+.m-input {
+    height: 40px;
+    color: #000;
+    border-radius: 4px;
+    border-color: #bbb;
+    border-width: 1px ;
+    outline: unset;
+    border-style: solid;
+    padding: 0 16px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.m-input:focus{
+    border-color: #019160;
+}
+.m-input::placeholder{
+    font-size: 11px;
+    color: #bbb;
+}
+.m-input-error{
+    border-color: #FF4747;
+}
+
+.m-error-info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    width: 200px;
+    align-items: center;
+}
+
+.m-error-info .m-error-text{
+    background-color: #FF4747;
+    position: relative;
+    z-index: 1;
+    padding: 8px 8px;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.m-error-info .m-error-arrow{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    top: 80%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    align-items: center;
+    transform: rotate(45deg);
+    background-color: #FF4747;
+    z-index: 9999;
+}
+
+.m-input-icon{
+    background-repeat: no-repeat ;
+    background-position: 16px center;
+    padding-left: 40px;
+    padding-right: 16px ;
+}
+
+input{
+    border: 1px solid #bbb;
+}
+
+.m-error-info{
+    position:absolute;
+    visibility: hidden;
+}
+
+.input-required{
+    color: red;
+}

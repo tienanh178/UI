@@ -1,0 +1,16 @@
+.m-form-content{
+    margin-left: 12px ;
+}
+
+.m-form-content  .m-content-header::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: #019160;
+    border: 0;
+}
+
+.m-input-required{
+    color: red;
+}
